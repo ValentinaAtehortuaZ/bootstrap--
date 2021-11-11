@@ -1,0 +1,339 @@
+.copyright{
+    height: 20px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.menu-footer1 {
+    margin-left: 60px;
+    
+}
+
+.instagramm {
+    
+    font-size: 50px;
+    color:rgb(101, 101, 102);
+    transform: translateY(-2px);
+    text-decoration: none;
+    
+}
+
+.facebook {
+    
+    font-size: 50px;
+    color:rgb(101, 101, 102);
+    transform: translateY(-2px);
+    
+}
+
+#COLOR{
+    color: black;
+    background-color:#dec769;
+    border-color:#dec769 ;
+
+}
+#COLOR:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+.pizza{
+    text-align: center;
+    background-color: #dec769;
+    padding: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+.todas-pizzas {
+    grid-template-columns: auto auto auto auto;
+    display: grid;
+    align-items: center;
+}
+
+.Italiana  {
+    margin-left: 60px;
+}
+
+.Pepperoni {
+    margin-left: 60px;
+}
+
+.Hawaiana {
+    margin-left: 60px
+}
+
+.Romana {
+    margin-left: 60px
+}
+
+.LASAÑAS {
+    grid-template-columns: auto auto auto ;
+    display: grid;
+    align-items: center;
+}
+
+.LASAÑA-CARNE {
+    margin-left: 130px;
+    
+    
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+.body-home {
+    height: 100vh;
+    overflow: auto;
+    background-image: url("Imagenes/turismo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.conta {
+    background-color: #f3f3e7;
+}
+
+
+
+.Logo {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    text-align: center;
+    place-content: center;
+    position: static;
+    align-items: center;
+}
+
+.Logo a img {
+    height: 100px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline-flex;
+}
+
+.menu li {
+    float: left;
+    
+}
+
+.menu li a {
+display: block;
+color:black;
+padding: 10px 100px 17px ;
+text-decoration: none;
+text-align: center;
+font-size: large;
+border-radius: 20px;
+
+}
+
+.container-menu {
+    justify-content: center;
+}
+
+.menu li a:hover{
+    background-color:#dbc36c;
+    color:rgb(12, 12, 12);
+}
+
+.menu{
+    text-align: center;
+    align-self: center;
+    
+}
+
+.menu1 {
+    text-align: center;
+}
+
+.container-footer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    
+    background-color: var(--backgroundcolor);
+}
+
+.grid-footer {
+    padding: 20px;
+    font-size: 30px;
+    height: 250px;
+    width: 90%;
+}
+
+.grid-footer {
+    padding: 20px;
+    font-size: 30px;
+    height: 250px;
+    width: 90%;
+}
+
+.grid-footer h5 {
+padding-left: 20px;
+margin-block-start: 1em;
+padding-inline-start: 40px;
+margin-bottom: auto;
+}
+
+.grid-footer  a {
+    display: block;
+    color:gray;
+    text-decoration: none;
+    font-size: large;
+    }
+
+    .Contact {
+        padding-left: 20px;
+        margin-block-start: 1em;
+        padding-inline-start: 40px;
+    }
+
+    .contact-icons {
+        position: absolute;
+        top: 50%;
+        font-size: 30px;
+    }
+
+    .WhatApp {
+        color: green;
+    }
+
+    .Instagram {
+        color: rgb(202, 41, 122);
+    }
+
+    .what {
+    
+        font-size: 50px;
+        color:green;
+    }
+    
+    .pagos {
+        padding-left: 20px;
+        margin-block-start: 1em;
+        padding-inline-start: 40px;
+    }
+    
+    
+    .grid-pagos h5 {
+        padding-left: 20px;
+        margin-block-start: 2em;
+        padding-inline-start: 80px;
+        margin-bottom: auto;
+        font-size: 26px;
+    }
+    
+    .grid-pagos  a {
+        display: block;
+        text-decoration: none;
+        font-size: 40px;
+        }
+    
+
+    /*:::::Pie de Pagina*/
+    .pie-pagina{
+        width: 100%;
+        background-color: #f8f9fa;
+        height: 240px;
+
+    }
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 150px;
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: black;
+        margin-bottom: 25px;
+        font-size: 20px;
+        margin-left: 11px;
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #a7a8a8;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+    .pie-pagina .grupo-1 .red-social a:hover{
+        color: aqua;
+    }
+    .pie-pagina .grupo-2{
+        background-color: #888a8b;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    .pie-pagina .grupo-2 small{
+        font-size: 15px;
+    }
+    @media screen and (max-width:800px){
+        .pie-pagina .grupo-1{
+            width: 90%;
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:30px;
+            padding: 35px 0px;
+        }
+    }
+
+    .menu-footer {
+        align-self: center;
+    }
+
+    .menu-footer1 {
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+
+    a:hover {
+        color: #dbc36c;
+    }
+
+    .carru{
+        grid-template-columns: auto auto;
+        display: grid;
+        align-items: center;
+        margin-left: 29px;
+    }
+
+    .imgc{
+        vertical-align:baseline;
+        width: 100%!important;
+        
+    }
+
+
+
